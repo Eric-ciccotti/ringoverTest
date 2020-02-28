@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto';
+}
+
+h1 {
+    text-align: center;
+}
+
+#map {
+    background-image: url('map_Reunion.jpg');
+    background-repeat: no-repeat;
+    flex: 2 1 auto; 
+    width: 760px;
+    height: 700px;
+    box-shadow: 2px 2px 2px black;
+    border: 2px inset blue;
+}
+
+#info {
+    margin-left: 10px;
+    padding: 10px;
+    min-width: 200px;
+    border: 5px inset blue;
+    border-radius: 1%;
+
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+#map_reunion {
+    width: 700px;
+    position: relative;
+}
+
+.location_picker {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
